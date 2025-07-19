@@ -1,0 +1,15 @@
+# Ignore WP core files and unnecessary junk
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+
+# Ignore OS or editor files
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+vendor/
