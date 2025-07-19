@@ -1,0 +1,18 @@
+# Ignore core if you copied only wp-content
+/wp-admin/
+/wp-includes/
+
+# Always ignore uploads & backups
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+/node_modules/
+/vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secret config?
+wp-config.php  # if you prefer to keep credentials out of Git, remove it or rename to wp-config-sample.php
